@@ -1,0 +1,13 @@
+name: MediaCommands
+version: ${project.version}
+main: dev.mansitoh.mediacommands.MediaCommands
+authors: [ Mansitoh ]
+description: Media Commands
+commands:
+  rec:
+    aliases:
+      - Recording
+  Stream:
+    aliases:
+      - Streaming
+  Video:

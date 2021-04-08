@@ -1,0 +1,37 @@
+#
+#███╗░░░███╗███████╗██████╗░██╗░█████╗░  ░█████╗░░█████╗░███╗░░░███╗███╗░░░███╗░█████╗░███╗░░██╗██████╗░░██████╗
+#████╗░████║██╔════╝██╔══██╗██║██╔══██╗  ██╔══██╗██╔══██╗████╗░████║████╗░████║██╔══██╗████╗░██║██╔══██╗██╔════╝
+#██╔████╔██║█████╗░░██║░░██║██║███████║  ██║░░╚═╝██║░░██║██╔████╔██║██╔████╔██║███████║██╔██╗██║██║░░██║╚█████╗░
+#██║╚██╔╝██║██╔══╝░░██║░░██║██║██╔══██║  ██║░░██╗██║░░██║██║╚██╔╝██║██║╚██╔╝██║██╔══██║██║╚████║██║░░██║░╚═══██╗
+#██║░╚═╝░██║███████╗██████╔╝██║██║░░██║  ╚█████╔╝╚█████╔╝██║░╚═╝░██║██║░╚═╝░██║██║░░██║██║░╚███║██████╔╝██████╔╝
+#╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝╚═╝░░╚═╝  ░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░╚═════╝░
+#Dᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ Mᴀɴsɪᴛᴏʜ
+#Tᴡɪᴛᴛᴇʀ: @Mansitoh_Py
+#Dɪsᴄᴏʀᴅ: Mansitoh#9540
+#Pᴀʏᴘᴀʟ: https://paypal.me/Mansitoh
+#Vᴇʀsɪᴏɴ 1.0.0
+#Sᴘɪɢᴏᴛ: https://www.spigotmc.org/resources/media-commands.91042/
+
+RecordingWebhook:
+  Enabled: false
+  WebhookURL: #WebhookURL
+  Author: "%Player%"
+  Title: "%Player% Recording!!!"
+  Color: 0xFFFFF
+  Description: "%Player% is now Recording.\n come play whit him"
+
+StreamingWebhook:
+  Enabled: false
+  WebhookURL: #WebhookURL
+  Author: "%Player%"
+  Title: "%Player% Recording!!!"
+  Color: 0xFFFFF
+  Description: "%Player% is now on Stream.\n connect whit him using %Link%"
+
+VideoWebhook:
+  Enabled: false
+  WebhookURL: #WebhookURL
+  Author: "%Player%"
+  Title: "%Player% has uploaded a new Video!"
+  Color: 0xFFFFF
+  Description: "%Player% has uploaded a new Video\n Link: %Link%"
