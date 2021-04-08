@@ -43,7 +43,7 @@ public final class MediaCommands extends JavaPlugin {
        Console.log("&bTᴡɪᴛᴛᴇʀ: @Mansitoh_Py");
        Console.log("&5Dɪsᴄᴏʀᴅ: Mansitoh#9540");
        Console.log("&3Pᴀʏᴘᴀʟ: https://paypal.me/Mansitoh");
-       Console.log("&f&lVᴇʀsɪᴏɴ 1.0.0");
+       Console.log("&f&lVᴇʀsɪᴏɴ 1.1.3");
        Console.log("&6Sᴘɪɢᴏᴛ: https://www.spigotmc.org/resources/media-commands.91042/");
        Console.log("&7Sᴛᴀᴛᴜs: &aEɴᴀʙʟɪɴɢ");
        messagesfile = new MessagesFile();
@@ -95,7 +95,7 @@ public final class MediaCommands extends JavaPlugin {
         Console.log("&bTᴡɪᴛᴛᴇʀ: @Mansitoh_Py");
         Console.log("&5Dɪsᴄᴏʀᴅ: Mansitoh#9540");
         Console.log("&3Pᴀʏᴘᴀʟ: https://paypal.me/Mansitoh");
-        Console.log("&f&lVᴇʀsɪᴏɴ 1.0.0");
+        Console.log("&f&lVᴇʀsɪᴏɴ 1.1.3");
         Console.log("&6Sᴘɪɢᴏᴛ: https://www.spigotmc.org/resources/media-commands.91042/");
         Console.log("&7Sᴛᴀᴛᴜs: &cDɪsᴀʙʟɪɴɢ");
     }
