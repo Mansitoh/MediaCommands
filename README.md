@@ -1,2 +1,2 @@
-#MediaCommands <br>
-Developed By Mansitoh
+NPCLib – Basic non-player character library.<br>
+
