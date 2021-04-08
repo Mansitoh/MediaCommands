@@ -15,23 +15,41 @@
 RecordingWebhook:
   Enabled: false
   WebhookURL: #WebhookURL
+  Username: "MediaCommands"
   Author: "%Player%"
   Title: "%Player% Recording!!!"
-  Color: 0xFFFFF
+  Color: "0xFFFFF"
   Description: "%Player% is now Recording.\n come play whit him"
+  Thumbnail: #thumbail url
+  Footer:
+    Message: "MediaCommands"
+    Link: "https://www.spigotmc.org/resources/media-commands-1-7-1-16-5.91042/"
 
 StreamingWebhook:
   Enabled: false
   WebhookURL: #WebhookURL
+  Username: "MediaCommands"
   Author: "%Player%"
   Title: "%Player% Recording!!!"
-  Color: 0xFFFFF
+  Color: "0xFFFFF"
   Description: "%Player% is now on Stream.\n connect whit him using %Link%"
+  Thumbnail: #thumbail url
+  Footer:
+    Message: "MediaCommands"
+    Link: "https://www.spigotmc.org/resources/media-commands-1-7-1-16-5.91042/"
+
 
 VideoWebhook:
   Enabled: false
   WebhookURL: #WebhookURL
+  Username: "MediaCommands"
   Author: "%Player%"
   Title: "%Player% has uploaded a new Video!"
-  Color: 0xFFFFF
+  Color: "0xFFFFF"
   Description: "%Player% has uploaded a new Video\n Link: %Link%"
+  Thumbnail: #thumbail url
+  Footer:
+    Message: "MediaCommands"
+    Link: "https://www.spigotmc.org/resources/media-commands-1-7-1-16-5.91042/"
+
+

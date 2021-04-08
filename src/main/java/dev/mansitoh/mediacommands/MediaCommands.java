@@ -1,6 +1,6 @@
 package dev.mansitoh.mediacommands;
 
-import club.minnced.discord.webhook.WebhookClient;
+import dev.mansitoh.mediacommands.utils.DiscordWebhook;
 import dev.mansitoh.mediacommands.commands.RecordingCommand;
 import dev.mansitoh.mediacommands.commands.StreamCommand;
 import dev.mansitoh.mediacommands.commands.VideoCommand;
@@ -16,9 +16,9 @@ public final class MediaCommands extends JavaPlugin {
 
     private static MediaCommands instance;
     public MessagesFile messagesfile;
-    public static WebhookClient recordwebhook;
-    public static WebhookClient streamwebhook;
-    public static WebhookClient videowebhook;
+    public static DiscordWebhook recordwebhook;
+    public static DiscordWebhook streamwebhook;
+    public static DiscordWebhook videowebhook;
 
     public SettingsFile settings;
     /*
@@ -63,21 +63,21 @@ public final class MediaCommands extends JavaPlugin {
 
         if(settings.getConfig().getBoolean("RecordingWebhook.Enabled") == true) {
             String webhookurl = messagesfile.getConfig().getString("RecordingWebhook.WebhookURL");
-            recordwebhook = WebhookClient.withUrl(webhookurl);
+            recordwebhook = new DiscordWebhook(webhookurl);
         }else{
             recordwebhook = null;
         }
 
         if(settings.getConfig().getBoolean("StreamingWebhook.Enabled") == true) {
             String webhookurl = messagesfile.getConfig().getString("StreamingWebhook.WebhookURL");
-            streamwebhook = WebhookClient.withUrl(webhookurl);
+            streamwebhook = new DiscordWebhook(webhookurl);
         }else{
             streamwebhook = null;
         }
 
         if(settings.getConfig().getBoolean("VideoWebhook.Enabled") == true) {
             String webhookurl = messagesfile.getConfig().getString("VideoWebhook.WebhookURL");
-            videowebhook = WebhookClient.withUrl(webhookurl);
+            videowebhook = new DiscordWebhook(webhookurl);
         }else{
             videowebhook = null;
         }

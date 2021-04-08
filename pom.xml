@@ -54,11 +54,7 @@
     </build>
 
     <repositories>
-        <repository>
-            <name>jcenter</name>
-            <id>bintray-jcenter</id>
-            <url>https://jcenter.bintray.com</url>
-        </repository>
+
 
         <repository>
             <id>spigotmc-repo</id>
@@ -71,11 +67,7 @@
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>club.minnced</groupId>
-            <artifactId>discord-webhooks</artifactId>
-            <version>0.5.6</version>
-        </dependency>
+
 
         <dependency>
             <groupId>org.spigotmc</groupId>
