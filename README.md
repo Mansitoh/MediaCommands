@@ -1,2 +1,0 @@
-#MediaCommands
-Developed By Mansitoh
