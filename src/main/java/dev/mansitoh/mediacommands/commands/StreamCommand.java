@@ -45,7 +45,7 @@ public class StreamCommand implements CommandExecutor {
                     String footermsg = plugin.settings.getConfig().getString("StreamingWebhook.Footer.Message").replace("%Player%", sender.getName());
                     String footerlink = plugin.settings.getConfig().getString("StreamingWebhook.Footer.Link").replace("%Player%", sender.getName());
                     String thumbnail = plugin.settings.getConfig().getString("StreamingWebhook.Thumbnail").replace("%Player%", sender.getName());
-                    DiscordWebhook webhook = plugin.recordwebhook;
+                    DiscordWebhook webhook = plugin.streamwebhook;
                     webhook.setUsername(username);
                     webhook.addEmbed(new DiscordWebhook.EmbedObject()
                             .setAuthor(embedautor, null,null)

@@ -1,5 +1,6 @@
 package dev.mansitoh.mediacommands;
 
+import dev.mansitoh.mediacommands.commands.LFFCommand;
 import dev.mansitoh.mediacommands.utils.DiscordWebhook;
 import dev.mansitoh.mediacommands.commands.RecordingCommand;
 import dev.mansitoh.mediacommands.commands.StreamCommand;
@@ -21,6 +22,8 @@ public final class MediaCommands extends JavaPlugin {
     public static DiscordWebhook videowebhook;
 
     public SettingsFile settings;
+    public DiscordWebhook lffwebhook;
+
     /*
     
     ███╗░░░███╗███████╗██████╗░██╗░█████╗░  ░█████╗░░█████╗░███╗░░░███╗███╗░░░███╗░█████╗░███╗░░██╗██████╗░░██████╗
@@ -60,6 +63,7 @@ public final class MediaCommands extends JavaPlugin {
         new RecordingCommand(this);
         new StreamCommand(this);
         new VideoCommand(this);
+        new LFFCommand(this);
 
         if(settings.getConfig().getBoolean("RecordingWebhook.Enabled") == true) {
             String webhookurl = messagesfile.getConfig().getString("RecordingWebhook.WebhookURL");
@@ -80,6 +84,12 @@ public final class MediaCommands extends JavaPlugin {
             videowebhook = new DiscordWebhook(webhookurl);
         }else{
             videowebhook = null;
+        }
+        if(settings.getConfig().getBoolean("LFFWebhook.Enabled") == true) {
+            String webhookurl = messagesfile.getConfig().getString("LFFWebhook.WebhookURL");
+            lffwebhook = new DiscordWebhook(webhookurl);
+        }else{
+            lffwebhook = null;
         }
     }
 

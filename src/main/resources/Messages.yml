@@ -18,16 +18,21 @@ RecordingMessage:
   - ""
   - "&6%Player% &b&lIs Now Recording!!!"
   - ""
-  -
+  - ""
 StreamUsage: "%Prefix% &7/Stream <link>"
 StreamingMessage:
   - ""
   - "&6%Player% &b&lIs Now on Stream!"
   - "&b&lLink: %Link%"
-  -
+  - ""
 VideoUsage: "%Prefix% &7/Video <link>"
 VideoMessage:
   - ""
   - "&6%Player% &b&lhas uploaded a new Video!!"
   - "&b&lLink: %Link%"
-  -
+  - ""
+
+LFFMessage:
+  - ""
+  - "&6%Player% &b&lare looking for faction"
+  - ""

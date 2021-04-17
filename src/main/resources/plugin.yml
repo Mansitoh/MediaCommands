@@ -11,3 +11,6 @@ commands:
     aliases:
       - Streaming
   Video:
+  LFF:
+    aliases:
+      - LookingForFaction

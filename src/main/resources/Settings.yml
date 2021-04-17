@@ -52,4 +52,16 @@ VideoWebhook:
     Message: "MediaCommands"
     Link: "https://www.spigotmc.org/resources/media-commands-1-7-1-16-5.91042/"
 
+LFFWebhook:
+  Enabled: false
+  WebhookURL: #WebhookURL
+  Username: "MediaCommands"
+  Author: "%Player%"
+  Title: "%Player% is looking for faction"
+  Color: "0xFFFFF"
+  Description: "%Player% is looking for faction"
+  Thumbnail: #thumbail url
+  Footer:
+    Message: "MediaCommands"
+    Link: "https://www.spigotmc.org/resources/media-commands-1-7-1-16-5.91042/"
 
